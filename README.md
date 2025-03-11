@@ -43,7 +43,7 @@ Hotel Management System is a web-based application designed to manage hotel oper
 
    ```bash
    git clone https://github.com/UmeshNayak1/Hotel-Management-System.git
-   cd nayak-hotel-management
+   cd Hotel-Management-System
    ```
 
 2. **Install Dependencies:**
@@ -132,6 +132,15 @@ Hotel-management-system/
 - Implement role-based access control
 - Add payment gateway integration
 - Implement AI-based room recommendations
+
+📌 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👏 Thank You!
+
+Thank you for visiting my project! I appreciate your interest and support. 
+
 
 
 
