@@ -101,17 +101,31 @@ Hotel-management-system/
 │-- .env.example    # Example environment variables
 ```
 
-## 📸 Screenshots
+## 💎 Screenshots
 
 ### Client Side
 
-
+![Customer Login](screenshots/customer_login.jpg)
+![Customer Account Creation](screenshots/customer_account_creating.jpg)
+![Customer Landing Page](screenshots/customer_landing_page.jpg)
+![Customer Dashboard](screenshots/Customer_Dashboard.jpg)
+![Room Booking Category](screenshots/room_booking_catogory.jpg)
+![Searching Rooms](screenshots/searching_rooms.jpg)
+![Available Rooms](screenshots/available_rooms_for_booking.jpg)
+![Booking Room Pending Status](screenshots/booking_room_pendding_status_for_Customer.jpg)
+![Booking Room Approved Status](screenshots/booking_room_Approved_status_for_Customer.jpg)
+![No Rooms Available](screenshots/no_rooms_available_for_customer.jpg)
+![Contact Us Page](screenshots/contact_us_page.jpg)
+![Customer Page](screenshots/customer_page.jpg)
 
 
 ### Admin Side
 
-
-
+![Admin Login](screenshots/admin_login.jpg)
+![Admin Page](screenshots/Admin_page.jpg)
+![Adding Available Rooms](screenshots/admin_side_available_room_adding.jpg)
+![Update Searching Admin](screenshots/update_searching_admin.jpg)
+![Updating](screenshots/updating.jpg)
 
 ## 📝 Future Enhancements
 
@@ -119,6 +133,9 @@ Hotel-management-system/
 - Add payment gateway integration
 - Implement AI-based room recommendations
 
+## 📌 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
