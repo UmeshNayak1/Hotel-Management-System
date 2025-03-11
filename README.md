@@ -27,7 +27,7 @@ Hotel Management System is a web-based application designed to manage hotel oper
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** Node.js, Express.js
 - **Database:** MySQL
-- **Authentication:** bcrypt.js (for password hashing)
+
 
 ## 🚀 Installation & Setup
 
