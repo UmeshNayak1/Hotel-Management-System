@@ -105,9 +105,9 @@ Hotel-management-system/
 
 ### Client Side
 
+![Customer Landing Page](screenshots/customer_landing_page.jpg)
 ![Customer Login](screenshots/customer_login.jpg)
 ![Customer Account Creation](screenshots/customer_account_creating.jpg)
-![Customer Landing Page](screenshots/customer_landing_page.jpg)
 ![Customer Dashboard](screenshots/Customer_Dashboard.jpg)
 ![Room Booking Category](screenshots/room_booking_catogory.jpg)
 ![Searching Rooms](screenshots/searching_rooms.jpg)
