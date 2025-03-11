@@ -24,6 +24,93 @@
             <link rel="stylesheet" href="/assets/css/style.css">
             <link rel="stylesheet" href="/assets/css/responsive.css">
             <style media="screen">
+                  
+                /* Header styling */
+        .header-area {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            z-index: 1000;
+        }
+
+        .main-header {
+            padding: 0; /* Remove extra padding */
+            height: 50px; /* Set the height equal to the logo height */
+            display: flex;
+            align-items: center; /* Vertically center the content */
+        }
+
+        /* Logo styling */
+        .logo img {
+            max-height: 50px; /* Set the height of the logo */
+            width: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Main menu styling */
+        .main-menu {
+            text-align: right;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        /* Mobile Menu */
+        .mobile_menu {
+            display: none;
+        }
+
+        /* For smaller screens */
+        @media screen and (max-width: 991px) {
+            .main-menu {
+                display: none;
+            }
+
+            .mobile_menu {
+                display: block;
+            }
+        }
+
+        /* For mobile menu items */
+        @media screen and (max-width: 767px) {
+            .main-menu ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+        /* Footer logo styling */
+        .footer-logo img {
+            max-width: 150px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center the logo */
+        }
+
+        /* Optional: Adjust other footer elements if needed */
+        .footer-area {
+            padding: 30px 0; /* Adjust the padding for the footer */
+        }
               .position{
                 margin-top: 50px;
                 width: 100%;
@@ -171,7 +258,7 @@
                            <div class="footer-tittle">
                                <h4>Quick Links</h4>
                                <ul>
-                                   <li><a href="#">About Mariana</a></li>
+                                   <li><a href="#">About Nayak Heritage</a></li>
                                    <li><a href="#">Our Best Rooms</a></li>
                                    <li><a href="#">Our Photo Gellary</a></li>
                                    <li><a href="#">Pool Service</a></li>
@@ -185,7 +272,7 @@
                                <h4>Reservations</h4>
                                <ul>
                                    <li><a href="#">Tel: 345 5667 889</a></li>
-                                   <li><a href="#">Skype: Marianabooking</a></li>
+                                   <li><a href="#">Skype: Nayak Heritagebooking</a></li>
                                    <li><a href="#">reservations@hotelriver.com</a></li>
                                </ul>
                            </div>
@@ -196,8 +283,8 @@
                            <div class="footer-tittle">
                                <h4>Our Location</h4>
                                <ul>
-                                   <li><a href="#">198 West 21th Street,</a></li>
-                                   <li><a href="#">Suite 721 New York NY 10016</a></li>
+                                <li><a href="#">123, XYZ Street, Hubballi</a></li>
+                                <li><a href="#">Suite 101, Hubballi, Karnataka 580001</a></li>
                                </ul>
                                <!-- Form -->
                                 <div class="footer-form" >

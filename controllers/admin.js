@@ -12,7 +12,7 @@ exports.getLogin = (req, res, next) => {
         var connectDB = mysql.createConnection({
             host: "localhost",
             user: "root",
-            password: "",
+            password: "ULN@NAYAK879",
             database: "hotel"
         });
         data1 = "SELECT * " +
@@ -38,7 +38,7 @@ exports.postLogin = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
@@ -82,7 +82,7 @@ exports.postChnageStatus = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
@@ -139,7 +139,7 @@ exports.postAddHotel = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
@@ -234,7 +234,7 @@ exports.postSearch = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
@@ -258,7 +258,7 @@ exports.getUpdate = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
@@ -284,7 +284,7 @@ exports.updatePrevData = (req, res, next) => {
     var connectDB = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "",
+        password: "ULN@NAYAK879",
         database: "hotel"
     });
 
