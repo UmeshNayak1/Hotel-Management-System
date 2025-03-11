@@ -1,8 +1,8 @@
-# Nayak Hotel Management System 🏨
+# Hotel Management System 🏨
 
 ## 📌 Project Description
 
-Nayak Hotel Management System is a web-based application designed to manage hotel operations efficiently. It includes features like room booking, check-in/check-out, food service management, and user authentication (admin and customers).
+Hotel Management System is a web-based application designed to manage hotel operations efficiently. It includes features like room booking, check-in/check-out, food service management, and user authentication (admin and customers).
 
 ## ✨ Features
 
