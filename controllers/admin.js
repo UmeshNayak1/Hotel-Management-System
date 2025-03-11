@@ -298,8 +298,7 @@ exports.updatePrevData = (req, res, next) => {
         " AND cost = " + mysql.escape(parseInt(req.session.info.cost))
 
     //  console.log(req.session.info);    
-    //  console.log(req.body); 
-    //  console.log(data);        
+          
 
     connectDB.query(data, (err, result) => {
         if (err) throw err;
