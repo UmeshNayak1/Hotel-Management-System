@@ -34,10 +34,10 @@ exports.getLogin = (req, res, next) => {
 exports.postLogin = (req, res, next) => {
 
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
 
    data = "SELECT * " +
@@ -72,10 +72,10 @@ exports.getCreateAccount = (req, res, next) => {
 exports.postCreateAccount = (req, res, next) => {
 
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
 
    var p1 = req.body.pass;
@@ -106,10 +106,10 @@ exports.getCategory = (req, res, next) => {
 exports.postCategory = (req, res, next) => {
    //console.log(req.body);
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
 
    data = "SELECT * " +
@@ -141,10 +141,10 @@ exports.postStatus = (req, res, next) => {
 
    //console.log(req.body);
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
    var date = req.body.date;
    
@@ -175,10 +175,10 @@ exports.postStatus = (req, res, next) => {
 exports.getShowStatus = (req, res, next) => {
 
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
 
    data = "SELECT * " +
@@ -209,10 +209,10 @@ exports.getShowStatus = (req, res, next) => {
 exports.deleteBooking =(req,res,next)=>{
    //console.log(req.body);
    var connectDB = mysql.createConnection({
-      host: "localhost",
+      host: "mysql.railway.internal",
       user: "root",
-      password: "ULN@NAYAK879",
-      database: "hotel"
+      password: "YHWZdIiVhxwSkuEdgLDzDCpifjJWVVmy",
+      database: "railway"
    });
 
    data = "DELETE FROM bookingstatus " +
